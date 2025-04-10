@@ -48,8 +48,8 @@ export default function LoginForm() {
       />
       <input
         type="password"
-        name="pass"
-        placeholder="Pass"
+        name="password"
+        placeholder="Password"
         value={formData.password}
         onChange={handleChange}
         required
